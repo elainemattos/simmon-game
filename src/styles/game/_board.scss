@@ -1,0 +1,14 @@
+.board {
+    background-color: $dark;
+    border: 5px solid $dark;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 40vw;
+    justify-content: space-between;
+    margin: 0 auto;
+    min-height: 300px;
+    min-width: 300px;
+    position: relative;
+    width: 40vw;
+}

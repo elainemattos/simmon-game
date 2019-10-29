@@ -1,0 +1,16 @@
+.start {
+    background: none;
+    border: none;
+    color: $white;
+    cursor: pointer;
+    font-family: $title-font;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    outline: none;
+    transition: transform .3s;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}

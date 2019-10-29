@@ -1,0 +1,33 @@
+.pad {
+    border-radius: 15%;
+    border: none;
+    cursor: pointer;
+    height: 50%;
+    outline: none;
+    transition: .2s;
+    width: 50%;
+
+    &-1 {
+        background-color: $pink;
+    }
+
+    &-2 {
+        background-color: $blue; 
+    }
+    
+    &-3 {
+        background-color: $green;
+    }
+
+    &-4 {
+        background-color: $yellow;
+    }
+
+    &:active, &-active {
+        filter: brightness(0.5);
+    }
+
+    &-inactive {
+        pointer-events: none;
+    }
+}

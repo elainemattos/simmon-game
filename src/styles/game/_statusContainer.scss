@@ -1,0 +1,15 @@
+.status-container {
+  align-items: center; 
+  background-color: $dark;
+  border-radius: 15%;
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  justify-content: center;
+  left: 50%;
+  margin-left: -15%;
+  margin-top: -15%;
+  position: absolute;
+  top: 50%;
+  width: 30%;
+}
